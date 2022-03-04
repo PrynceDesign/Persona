@@ -11,7 +11,11 @@ const giorni = {
 
 
 
-const giorniDescIT = {
+const impostazioni = {
+
+    lingue: {
+
+  it: {  
     lun : 'lunedi',
     mar: 'martedi',
     mer: 'marcoledi',
@@ -19,17 +23,29 @@ const giorniDescIT = {
     ven: 'venerdi',
     sab:'sabato',
     dom:'domenica',
-}
-
-const giorniDescENG = {
+     },
+  en :{
     lun : 'monday',
-    mar: 'thuesday',
-    mer: 'wedsday',
-    gio: 'thusday',
+    mar: 'thuestay',
+    mer: 'wednesday',
+    gio: 'thursday',
     ven: 'friday',
-    sab: 'saturday',
-    dom: 'sunday',
+    sab:'saturday',
+    dom:'sunday',
+    },
+  fr :{
+    lun : 'francese',
+    mar: 'francese',
+    mer: 'francese',
+    gio: 'francese',
+    ven: 'francese',
+    sab:'francese',
+    dom:'francese',
+      },
+    }
 };
+
+
 
 const persona = {
     nome: 'rossi',
