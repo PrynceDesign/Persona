@@ -67,7 +67,8 @@ persona.tel[2]
 
 // qui imposto quale vocabolario di lingua prendere 
 const lingua = 'en';
-const vocabolario = lingua === 'it' ? giorniDescIT : giorniDescENG;
+const lingue = impostazioni.lingue;
+const vocabolario =lingue[lingua];
 
 // da qui in poi con traduttore, mi "traduce" sempre nella lingua corrente,
 // non devo fare nessuna modifica al codice se cambio lingua
